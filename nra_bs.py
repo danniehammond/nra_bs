@@ -21,6 +21,7 @@ E=2.36
 r=0.01
 t=1
 c =0.1875
+
 sigma = 0.10
 sig = []
 for i in range(0,11):
@@ -41,7 +42,7 @@ for i in range(1,101):
     sigma = sigma - f/f1
     sig[i]= sigma
     if(abs(sig[i]-sig[i-1])<0.00000001):
-        sig = sig[0:i]
+        sig = sig[0:i+1]
         break
 print(sig)
 
