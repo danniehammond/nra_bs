@@ -16,4 +16,5 @@ The output obtained was:
 
 Giving an implied volatility (sigma) = 0.2
 
-An implied volatility is noted as when f() = 0.
+An implied volatility is noted as when f(sigma) = 0.
+
